@@ -95,7 +95,7 @@ ob_start();
                 </p>
             </div>
           </div>
-          <div class="btn-group my-5 d-flex align-content-center justify-content-center gap-1" data-toggle="buttons">
+          <div class="btn-group my-3 d-flex align-content-center justify-content-center gap-1" data-toggle="buttons">
               <label class="btn btn-primary bg-azulclaro borda-azul btn btn-outline-light btn-lg">
                 <input type="radio" name="resp" value="Alternativa1" onClick="ativaOpcao()" id="option1" autocomplete="off" checked>
                   <?php
