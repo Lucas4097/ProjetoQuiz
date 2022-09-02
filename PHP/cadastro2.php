@@ -18,8 +18,6 @@ if($row['total'] == 1){
 
 $sql = "INSERT INTO usuarios (nome_usu, senha) VALUES ('$usuario', '$senha')";
 
-echo $sql;
-
 if($mysqli->query($sql) === true){
     $_SESSION['status_cadastro'] = true;
 }

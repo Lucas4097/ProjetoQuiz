@@ -1,5 +1,4 @@
 <?php
-
 session_start();
 
 include("conexao.php");
@@ -26,3 +25,4 @@ if($row == 1){
     header("Location: login.php?erro=dadoserrado");
     exit();
 }
+?>
