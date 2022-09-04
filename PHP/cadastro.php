@@ -1,5 +1,9 @@
 ﻿<?php
 session_start();
+if(isset($_SESSION['usuario'])){
+    echo ("<script> window.alert('Você está numa sessão!')
+    window.location.href='game.php' </script>");
+    }
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -35,16 +39,6 @@ session_start();
                 <input name="usuario" class="cadastro_input" type="text" required placeholder="Nome"><br><br>
                 <input name="senha" class="cadastro_input" type="password" required placeholder="Senha"><br><br>
                 <button type="submit" id="cadastro_botao">Cadastrar-se</button>
-                <?php
-                if(isset($_SESSION['status_cadastro'])){
-                    ?>
-                    <div id="cadastro_sucesso" class="font-sigmar">
-                    <p>Cadastro feito com sucesso! Para logar-se clique no <a href="login.php">link</a></p>
-                    </div>
-                    <?php
-                    }
-                    unset($_SESSION['status_cadastro']);
-                    ?>
                 <div class="menu_cadastro font-sigmar">
                     <button type="button" onclick="return confirm('Quer voltar para o menu?')" id="menuButton" class="btn btn-outline-light btn-lg bg-azulclaro borda-azul"><a href="..\HTML\start.html">Menu</a></button>
                 </div>

@@ -1,8 +1,9 @@
 <?php
 session_start();
 if(isset($_SESSION['usuario'])){
-    header('Location: game.php');
-   }
+    echo ("<script> window.alert('Você está numa sessão!')
+    window.location.href='game.php' </script>");
+    }
 
 ?>
 
