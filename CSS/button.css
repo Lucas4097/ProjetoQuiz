@@ -20,3 +20,8 @@ border-color: white;
 color: white;
 background-color: #5c65c0;
 }
+
+.menu{
+    display:flex;
+}
+ 
