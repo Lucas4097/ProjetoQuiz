@@ -40,7 +40,7 @@ if(isset($_SESSION['usuario'])){
                 <input name="senha" class="cadastro_input" type="password" required placeholder="Senha"><br><br>
                 <button type="submit" id="cadastro_botao">Cadastrar-se</button>
                 <div class="menu_cadastro font-sigmar">
-                    <button type="button" onclick="return confirm('Quer voltar para o menu?')" id="menuButton" class="btn btn-outline-light btn-lg bg-azulclaro borda-azul"><a href="..\HTML\start.html">Menu</a></button>
+                    <button type="button" onclick="return confirm('Quer voltar para o menu?')" id="menuButton" class="btn btn-outline-light btn-lg bg-azulclaro borda-azul"><a href="../index.html">Menu</a></button>
                 </div>
             </div>
         </form>
