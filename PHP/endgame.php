@@ -15,14 +15,21 @@
             <h1 class="text-center my-3 text-light">Puzzle Brain</h1>
             <p class="text-center my-3 text-light"> Você chegou ao fim dessa rodada!
             </p>
-            <p class="text-center my-3 text-light"> Sua pontuação foi de <pontuacaoo> </pontua> <!/p> 
+            <?php
+            $query_id_pont = mysqli_query($mysqli, "SELECT MAX(id_pont) as id_pont FROM pontuacao");
+            $row_id_pont = mysqli_fetch_assoc($query_id_pont);
+            $query_pontos = "SELECT * FROM pontuacao WHERE id_pont = ". $row_id_pont['id_pont'];
+            $result_pontos = mysqli_query($mysqli, $query_pontos);
+            $row_pontos = mysqli_fetch_assoc($result_pontos);
+            ?>
+            <p class="text-center my-3 text-light"> Sua pontuação foi de <?= $row_pontos['Pontuacao']    ?></p>
             <p class="text-center my-3 text-light">
             Ah não! Essa partida chegou ao fim! Mas caso queira jogar novamente, escolha a opção "Tentar Novamente"  
             ou se preferir, escolha "Rank de Pontos" para ver as top 10 pontuação </p>
         </div>
         <div class="my-4 btn-group my-5 d-flex align-content-center justify-content-center gap-1">
-            <a class="btn btn-primary bg-botao-versao2 btn btn-outline-light btn-lg" href="../PHP/game.php">Tentar Novamente</a>
-            <a class="btn btn-primary bg-botao-versao2 btn btn-outline-light btn-lg" href="../PHP/ranking.php">Rank de Pontos</a>
+            <a class="btn btn-primary bg-botao-versao2 btn btn-outline-light btn-lg" href="game.php">Tentar Novamente</a>
+            <a class="btn btn-primary bg-botao-versao2 btn btn-outline-light btn-lg" href="ranking.php">Rank de Pontos</a>
         </div>
     </div>        
     </body>
