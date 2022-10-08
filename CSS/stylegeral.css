@@ -59,3 +59,8 @@ a:hover {
 .errou {
   animation: normal 2s infinite;
 }
+
+.dropdown-botao:hover{
+  background-color: inherit;
+  color: white;
+}

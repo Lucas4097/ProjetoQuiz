@@ -2,7 +2,7 @@
 session_start();
 if(isset($_SESSION['usuario'])){
     echo ("<script> window.alert('Você está numa sessão!')
-    window.location.href='game.php' </script>");
+    window.location.href='../index.html' </script>");
     }
 ?>
 <!DOCTYPE html>

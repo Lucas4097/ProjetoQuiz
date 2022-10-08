@@ -19,7 +19,7 @@ $row = mysqli_fetch_assoc($result);
 
 if(password_verify($senha, $row['senha'])){
     $_SESSION['usuario'] = $usuario;
-    header('Location: game.php');
+    header('Location: ../index.php');
     exit();
 } else {
     header("Location: login.php?erro=dadoserrado");

@@ -159,7 +159,7 @@ ob_start();
 
   <?php
   if ($i >= 6) {
-    header("location:fimdegame.php");
+    header("location:endgame.php");
     echo ("<audio preload src='..\Midia\Music\aplausos.mp3' id='somAplauso'></audio>");
   }
   ?>

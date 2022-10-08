@@ -1,5 +1,11 @@
+<?php
+include("conexao.php");
+include("verific_login.php");
+
+?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,7 +28,11 @@
             $result_pontos = mysqli_query($mysqli, $query_pontos);
             $row_pontos = mysqli_fetch_assoc($result_pontos);
             ?>
-            <p class="text-center my-3 text-light"> Sua pontuação foi de <?= $row_pontos['Pontuacao']    ?></p>
+            <p class="text-center my-3 text-light"> Sua pontuação foi de
+                <?php
+                echo ($row_pontos['Pontuacao']);
+                ?>
+            </p>
             <p class="text-center my-3 text-light">
             Ah não! Essa partida chegou ao fim! Mas caso queira jogar novamente, escolha a opção "Tentar Novamente"  
             ou se preferir, escolha "Rank de Pontos" para ver as top 10 pontuação </p>
