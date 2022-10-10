@@ -16,6 +16,9 @@ include("verific_login.php");
     <link rel="stylesheet" href="../CSS/button.css">
 </head>
 <body class="font-sigmar bg-fundosite">
+
+    <audio preload src="..\Midia\Music\aplausos.mp3" id="somAplauso"></audio>
+
     <div class="container mt-4">
         <div menu>
             <h1 class="text-center my-3 text-light">Puzzle Brain</h1>
@@ -41,6 +44,10 @@ include("verific_login.php");
             <a class="btn btn-primary bg-botao-versao2 btn btn-outline-light btn-lg" href="game.php">Tentar Novamente</a>
             <a class="btn btn-primary bg-botao-versao2 btn btn-outline-light btn-lg" href="ranking.php">Rank de Pontos</a>
         </div>
-    </div>        
-    </body>
+    </div>    
+    
+    <script src="..\JS\aplausos.js"></script>
+    
+</body>
+    
 </html>

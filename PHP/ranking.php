@@ -46,7 +46,7 @@ include("verific_login.php");
       </table>
 
         <div class="mt-4 d-flex align-content-center justify-content-end gap-1">
-          <button type="button" onclick="return confirm('Quer voltar para o menu?')" id="menuButton" class="btn btn-outline-light btn-lg bg-azulclaro borda-azul"><a href="../index.html">Menu</a></button>
+          <button type="button" onclick="return confirm('Quer voltar para o menu?')" id="menuButton" class="btn btn-outline-light btn-lg bg-azulclaro borda-azul"><a href="../index.php">Menu</a></button>
           <button type="button" onclick="return confirm('Quer deslogar de sua conta?')" id="sairButton" class="btn btn-outline-light btn-lg bg-azulclaro borda-azul"><a href="logout.php">Sair</a></button>
         </div>
   </div>

@@ -144,7 +144,7 @@ ob_start();
         <div class="my-2 d-flex align-content-center justify-content-end flex-wrap gap-1">
           <button type="submit" value="<?php echo $i; ?>" name="valresposta" class="bg-azulclaro borda-azul btn btn-outline-light btn-lg" id="botaoSubmit">Responder</button>
           <div class="col-sm-auto">
-            <button type="button" onclick="return confirm('Quer voltar para o menu? Seu jogo atual será perdido!')" id="menuButton" class="btn btn-outline-light btn-lg bg-azulclaro borda-azul"><a href="../index.html">Menu</a></button>
+            <button type="button" onclick="return confirm('Quer voltar para o menu? Seu jogo atual será perdido!')" id="menuButton" class="btn btn-outline-light btn-lg bg-azulclaro borda-azul"><a href="../index.php">Menu</a></button>
             <button type="button" onclick="return confirm('Quer deslogar de sua conta?')" id="sairButton" class="btn btn-outline-light btn-lg bg-azulclaro borda-azul"><a href="..\PHP\logout.php">Sair</a></button>
           </div>
         </div>

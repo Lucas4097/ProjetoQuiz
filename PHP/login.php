@@ -44,7 +44,7 @@ if(isset($_SESSION['usuario'])){
                     <a class="link-light" href="cadastro.php">Quer se cadastrar?</a>
                 </div>
                 <div class="menu_login font-sigmar">
-                    <button type="button" onclick="return confirm('Quer voltar para o menu?')" id="menuButton" class="btn btn-outline-light btn-lg bg-azulclaro borda-azul"><a href="../index.html">Menu</a></button>
+                    <button type="button" onclick="return confirm('Quer voltar para o menu?')" id="menuButton" class="btn btn-outline-light btn-lg bg-azulclaro borda-azul"><a href="../index.php">Menu</a></button>
                 </div>
             </div>
         </form>
