@@ -2,7 +2,7 @@
 session_start();
 if(isset($_SESSION['usuario'])){
     echo ("<script> window.alert('Você está numa sessão!')
-    window.location.href='../index.html' </script>");
+    window.location.href='../index.php' </script>");
     }
 
 ?>
@@ -37,8 +37,8 @@ if(isset($_SESSION['usuario'])){
                 }} unset($_GET['erro']);
                 ?>
 
-                <input name="usuario" class="login_input" type="text" placeholder="Nome"><br><br>
-                <input name="senha" class="login_input" type="password" placeholder="Senha"><br><br>
+                <input name="usuario" class="login_input" type="text" required placeholder="Nome"><br><br>
+                <input name="senha" class="login_input" type="password" required placeholder="Senha"><br><br>
                 <button type="submit" id="login_botao">Logar-se</button>
                 <div class="mt-4 float-end">
                     <a class="link-light" href="cadastro.php">Quer se cadastrar?</a>

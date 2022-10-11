@@ -11,8 +11,8 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Puzzle Brain</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="../CSS/stylegeral.css">
-    <link rel="stylesheet" href="../CSS/button.css">
+    <link rel="stylesheet" href="CSS/stylegeral.css">
+    <link rel="stylesheet" href="CSS/button.css">
     <link rel="icon" type="image/png" href="..\Midia\Img\puzzle-removebg-preview.png" />
 </head>
 <body class="font-sigmar bg-fundosite">
@@ -30,7 +30,7 @@ session_start();
                     ?>
                 </button>
                 <ul class="dropdown-menu bg-primary">
-                    <li><a onclick="return confirm('Quer deslogar de sua conta?')" class="dropdown-item dropdown-botao" href="/PHP/logout.php">Logout</a></li>
+                    <li><a onclick="return confirm('Quer deslogar de sua conta?')" class="dropdown-item dropdown-botao" href="PHP/logout.php">Logout</a></li>
                 </ul>
             </div>
             <?php
