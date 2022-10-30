@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 include "PHP/conexao.php";
 session_start();
 ?>
@@ -49,18 +49,16 @@ session_start();
                         Seu Objetivo é ensinar os estudantes e público em geral, conceitos importantes de História, Matemática e Português, que posteriormente, poderá
                         ajuda-lós em trabalhos escolares e até mesmo, no mercado de trabalho.
                     </p>
-                    <p class="text-center my-3 text-light d-none d-lg-block">
-                        Para jogar, é preciso apenas utilizar o toque no celular e no computador, o mouse.
-                        São 10 rodadas com 4 alternativas, mas apenas uma é a correta. É permitido 1 tentativa por vez em cada pergunta por rodada.
-                    </p>
                 </div>
             </div>
 
             <div class="my-4 btn-group my-5 d-flex align-content-center justify-content-center gap-1 flex-wrap">
-                <a class="btn btn-primary bg-botao-versao2 btn btn-outline-light btn-lg" href="PHP/game.php">Iniciar jogo</a>
-                <a class="btn btn-primary bg-botao-versao2 btn btn-outline-light btn-lg" href="PHP/ranking.php">Ranking</a> 
-                <a class="btn btn-primary bg-botao-versao2 btn btn-outline-light btn-lg" href="PHP/cadastro.php">Cadastro</a>
-                <a class="btn btn-primary bg-botao-versao2 btn btn-outline-light btn-lg" href="PHP/login.php">Login</a>
+                <a class="btn btn-primary bg-botao-versao2 btn btn-outline-light btn-lg" href="PHP/game.php"> Jogar </a>
+                <a class="btn btn-primary bg-botao-versao2 btn btn-outline-light btn-lg" href="PHP/ranking.php">Ver Rank</a> 
+                <a class="btn btn-primary bg-botao-versao2 btn btn-outline-light btn-lg" href="PHP/cadastro.php">Fazer Cadastro</a>
+                <a class="btn btn-primary bg-botao-versao2 btn btn-outline-light btn-lg" href="PHP/login.php">Fazer Login</a>
+                <a class="btn btn-primary bg-botao-versao2 btn btn-outline-light btn-lg" href="PHP/sobre.php">Saiba Mais</a>
+
             </div>
         </main>
     </section>
