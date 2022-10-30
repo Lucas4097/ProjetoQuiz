@@ -1,6 +1,5 @@
 ﻿<?php
 include("conexao.php");
-include("verific_login.php");
 ?>
 
 

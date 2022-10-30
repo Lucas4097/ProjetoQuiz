@@ -25,6 +25,12 @@
   color: white;
 }
 
+.bg-botao-versao2:hover{
+  border-color: white;
+  color: white;
+  background-color: #5c65c0;
+}
+
 .link-cadastro {
   color: white !important;
 }
