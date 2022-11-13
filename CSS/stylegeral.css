@@ -25,12 +25,15 @@
   color: white;
 }
 
+<<<<<<< HEAD
+=======
 .bg-botao-versao2:hover{
   border-color: white;
   color: white;
   background-color: #5c65c0;
 }
 
+>>>>>>> 537ec8fc1044224bbfe455f868916e49a9f38843
 .link-cadastro {
   color: white !important;
 }

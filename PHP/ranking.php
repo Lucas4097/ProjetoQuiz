@@ -1,5 +1,9 @@
 ﻿<?php
 include("conexao.php");
+<<<<<<< HEAD
+include("verific_login.php");
+=======
+>>>>>>> 537ec8fc1044224bbfe455f868916e49a9f38843
 ?>
 
 
