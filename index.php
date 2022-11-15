@@ -61,11 +61,14 @@ session_start();
 
     
 
-  <footer>
+    <footer>
       <hr style="margin-top:50px;" />
       <table class="table" class="text-center my-3 text-light" >
         <thead>
-            <tr><th class="text-center my-3 text-light" colspan="4"> Contato e redes sociais</th> </tr>
+            <tr><th class="text-center my-3 text-light" colspan="4"> 
+                © 2019-2022 Puzzle Brain Co., Inc. Todos os direitos reservados.
+
+            </th> </tr>
         </thead> 
         
      
@@ -83,14 +86,6 @@ session_start();
     caption {font-size: x-large;}
    
     </style>
-        
-        <table class="table" class="text-center my-3 text-light" >
-    
-        <tbody>
-        <tr><td  class="text-center my-3 text-light" colspan="4">
-            © 2019-2022 Puzzle Brain Co., Inc. Todos os direitos reservados.
-        </td></tr>
-    </tfoot> 
     </table>
             
         </div>
