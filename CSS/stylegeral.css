@@ -73,3 +73,10 @@ a:hover {
   background-color: inherit;
   color: white;
 }
+
+.copyright{
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  text-align: center;
+}
