@@ -158,6 +158,9 @@ ob_start();
 
 
   <?php
+
+  include "../Components/copyright.html";
+  
   if ($i >= 6) {
     header("location:endgame.php");
     echo ("<audio preload src='..\Midia\Music\aplausos.mp3' id='somAplauso'></audio>");

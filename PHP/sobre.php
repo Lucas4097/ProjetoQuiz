@@ -1,5 +1,5 @@
 <?php
-include "PHP/conexao.php";
+include "conexao.php";
 session_start();
 ?>
 
@@ -68,7 +68,7 @@ session_start();
             </section>
 
             <div class="my-4 btn-group my-5 d-flex align-content-center justify-content-center gap-1 flex-wrap">
-                <a class="btn btn-primary bg-botao-versao2 btn btn-outline-light btn-lg" href="PHP/index.php">Voltar pra
+                <a class="btn btn-primary bg-botao-versao2 btn btn-outline-light btn-lg" href="../index.php">Voltar pra
                     tela inicial</a>
             </div>
         </main>

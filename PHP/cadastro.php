@@ -45,6 +45,10 @@ if(isset($_SESSION['usuario'])){
             </div>
         </form>
     </div>
+
+    <?php
+    include "../Components/copyright.html";
+    ?>
 </body>
 
 </html>

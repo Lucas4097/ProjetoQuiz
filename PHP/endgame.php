@@ -44,7 +44,10 @@ include("verific_login.php");
             <a class="btn btn-primary bg-botao-versao2 btn btn-outline-light btn-lg" href="game.php">Tentar Novamente</a>
             <a class="btn btn-primary bg-botao-versao2 btn btn-outline-light btn-lg" href="ranking.php">Rank de Pontos</a>
         </div>
-    </div>    
+    </div>
+    <?php
+    include "../Components/copyright.html";
+    ?>    
     
     <script src="..\JS\aplausos.js"></script>
     
